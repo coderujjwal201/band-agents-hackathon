@@ -1,26 +1,32 @@
-# 🤖 Band of Agents Hackathon 2026
+# 🤖 HR Onboarding Multi-Agent System
 
-Multi-agent enterprise workflow system built with Band SDK.
+> Band of Agents Hackathon 2026 — Built with Band SDK
 
-## 🎯 Project Idea
-AI-powered multi-agent system where specialized agents collaborate 
-to automate enterprise workflows using Band as the coordination layer.
+An enterprise multi-agent system that automates 
+the entire HR onboarding workflow using 4 specialized 
+AI agents coordinated through Band.
+
+## 🔄 How it works
+
+New Employee Form
+      ↓
+🧠 Planner Agent   — Understands role & department
+      ↓
+📧 Email Agent     — Drafts personalized welcome email  
+      ↓
+💻 Access Agent    — Assigns software & tools access
+      ↓
+📋 Training Agent  — Creates custom training schedule
+      ↓
+✅ Dashboard       — Shows complete onboarding summary
 
 ## 🛠️ Tech Stack
-- **Backend:** Python + Band SDK
-- **Frontend:** HTML, CSS, JavaScript
-- **AI:** Claude / OpenAI API
-- **Coordination:** Band multi-agent framework
-
-## 🤖 Agents
-- 🧠 Planner Agent — breaks down tasks
-- ⚙️ Executor Agent — does the work  
-- 🔍 Reviewer Agent — checks quality
-- 📊 Reporter Agent — creates summary
+- Python + Band SDK (multi-agent coordination)
+- HTML, CSS, JavaScript (dashboard frontend)
+- Claude API (agent intelligence)
 
 ## 🚀 Status
-🔨 In Progress — Hackathon: June 12-19, 2026
+🔨 In Progress — June 12-19, 2026
 
 ## 👤 Author
-- GitHub: [@coderujjwal201](https://github.com/coderujjwal201)# band-agents-hackathon
-Multi-agent enterprise workflow system built with Band SDK for Band of Agents Hackathon 2026.
+[@coderujjwal201](https://github.com/coderujjwal201)
