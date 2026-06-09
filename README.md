@@ -1,32 +1,48 @@
-# 🤖 HR Onboarding Multi-Agent System
+# Employee Lifecycle Automation
 
-> Band of Agents Hackathon 2026 — Built with Band SDK
+A multi-agent AI system that automates employee onboarding.
 
-An enterprise multi-agent system that automates 
-the entire HR onboarding workflow using 4 specialized 
-AI agents coordinated through Band.
+## Features
 
-## 🔄 How it works
+- Planner Agent
+- Email Agent
+- Access Agent
+- Training Agent
+- Manager Approval Agent
 
-New Employee Form
+## Architecture
+
+```text
+Employee Form
       ↓
-🧠 Planner Agent   — Understands role & department
+Planner Agent
       ↓
-📧 Email Agent     — Drafts personalized welcome email  
+Email Agent
       ↓
-💻 Access Agent    — Assigns software & tools access
+Access Agent
       ↓
-📋 Training Agent  — Creates custom training schedule
+Training Agent
       ↓
-✅ Dashboard       — Shows complete onboarding summary
+Manager Approval Agent
+      ↓
+Dashboard
+```
 
-## 🛠️ Tech Stack
-- Python + Band SDK (multi-agent coordination)
-- HTML, CSS, JavaScript (dashboard frontend)
-- Claude API (agent intelligence)
+## Tech Stack
 
-## 🚀 Status
-🔨 In Progress — June 12-19, 2026
+- FastAPI
+- SQLite
+- HTML
+- CSS
+- JavaScript
+- Claude API
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
 
 ## 👤 Author
 [@coderujjwal201](https://github.com/coderujjwal201)
